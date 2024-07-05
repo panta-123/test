@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: jeffersonlab/hallc-ladlib
+          images: apanta123/test
       - 
         name: Set up QEMU
         uses: docker/setup-qemu-action@v3
