@@ -16,6 +16,11 @@ jobs:
 
       #- name: show output
       #  run : echo "${{ env.hcana}}"
+      - name: Extract hcana Version
+        id: extract_version
+        run: |
+          hcana_version="grep -o 'find_package(hcana[[:space:]]*[[:alnum:]]*[0-9.]*' CMakeLists.txt | grep -o '[[:alnum:]]*[0-9.]*$'"
+          echo "::set-output name=hcana_version::$hcana_version"
       -
         name: Docker meta
         id: meta
