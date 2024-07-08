@@ -1,0 +1,20 @@
+abstract: This is my test repo to test github archiver
+authors:
+  - affiliation: Thomas Jefferson National Lab
+    family-names: Panta
+    given-names: Anil
+    orcid: https://orcid.org/0000-0001-6385-7712
+cff-version: 1.2.0
+
+keywords:
+  - research software
+  - citable software
+  - release
+  - doi
+  - ci
+  - automation
+  - integration
+license: Apache-2.0
+message: If you use this software, please cite it using these metadata.
+repository-code: https://github.com/panta-123/test
+title: THis is a test
